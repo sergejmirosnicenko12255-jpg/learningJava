@@ -52,7 +52,7 @@ public class lab2 {
         }
         System.out.printf("; Одиннадцатая задача: " + "Для x = " + x + ", y = " + task11);
 
-        double task14;
+        double task14; // Пример №14
         if (x <= -1){
             task14 = 0.2 * x * x + (b * x + Math.log(Math.abs(x+3)));
         }
@@ -62,3 +62,4 @@ public class lab2 {
         System.out.printf("; Четырнадцатая задача: " + "Для x = " + x + ", y = " + task14);
     }
 }
+
